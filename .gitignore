@@ -1,1 +1,17 @@
+# Python
+__pycache__/
+*.pyc
 .env
+Agent/
+*.log
+db.sqlite3
+
+# Spark
+*.parquet
+data/
+spark-warehouse/
+metastore_db/
+
+# IDE
+.vscode/
+.idea/
